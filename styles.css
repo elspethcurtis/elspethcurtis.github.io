@@ -8,7 +8,7 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background-image: url(img/canyon2.jpg);
+	background-image: url("https://elspethcurtis.github.io/img/canyon2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
