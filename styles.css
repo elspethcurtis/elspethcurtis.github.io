@@ -1,7 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-	background: blue;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-image: url(img/canyon2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+img{
+	max-width: 100%;
+}
+
+header, .nav ul {
+	display: flex;
+	padding: 0;
+}
+
+header {
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 8px;
+	border: black 3px solid;
+}
+
+footer {
+	border-radius: 8px;
+	border: black 3px solid;
+	text-align: center;
+}
+
+@media(min-width: 510px) {
+	header {
+		justify-content: space-between;
+	}
+}
+
+.nav {
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.nav ul li {
+	padding: 5px 8px;
+	margin: 0 5px;
+	list-style: none;
+	background: lavender;
+	border-radius: 8px;
+}
+
+.nav ul li:hover{
+	background: lightblue;
+	cursor: pointer;
+}
+
+.main-content {
+	flex: 1;
+
 }
 
 h1 {
-	color:antiquewhite;
+	color:;
+	padding-top: 5px;
+}
+
+header, footer {
+	background: mistyrose;
+	flex-shrink: 0;
+	box-shadow: 8px 5px 11px 1px midnightblue;
+	margin: 30px;
+}
+
+.about, .projects, .contact {
+	display: none;
+	background: mistyrose;
+	margin: 10px;
+	border: black 3px solid;
+	border-radius: 8px;
+	padding: 10px;
+}
+
+a {
+	text-decoration:none;
+	padding: 10px;
+	font-size: 30px;
+	color: black;
 }
