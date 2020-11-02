@@ -94,6 +94,12 @@ header, footer {
 a {
 	text-decoration:none;
 	padding: 10px;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	color: black;
+}
+
+@media(min-width: 510px) {
+	a {
+		font-size: 1.5rem;
+	}
 }
