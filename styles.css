@@ -8,9 +8,10 @@ body {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
-	background-image: url(img/canyon2.JPG);
+	background-image: url(img/canyon3.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
+	font-family: 'Nanum Gothic Coding', monospace;
 }
 
 
