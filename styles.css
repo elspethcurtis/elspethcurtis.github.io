@@ -177,12 +177,18 @@ form input {
 }
 
 textarea {
-	width: 300px;
+	width: 200px;
 	height: 100px;
 	margin: 10px;
 	padding: 8px;
 	border: black solid 1px;
 	border-radius: 8px;
+}
+
+@media(min-width:800px) {
+	textarea{
+		width: 300px;
+	}
 }
 
 
