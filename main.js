@@ -18,3 +18,13 @@ $(".nav-contact").on("click", function() {
 	$(".contact").show("slow");
 })
 
+
+//when project button is clicked expand project details
+$('.project-1-btn').click(function () {
+	$(".project-1").toggle("slow");
+})
+
+$('.project-2-btn').click(function () {
+	$(".project-2").toggle("slow");
+})
+

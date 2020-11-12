@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Elspeth Curtis | Junior Front-End Devloper</title>
     <link rel="stylesheet" href="styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
@@ -11,12 +11,11 @@
     
 <!-- HEADER-->
 	<header>
-		<a href='index.html'>Elspeth's portfolio</a>
+		<a class = "icon" href='index.html'>Elspeth Curtis</a>
 	
 	
 		<div class="nav">
 			<ul>
-				<li><a href="index.html#about" class="nav-about">About</a></li>
 				<li><a href="index.html#projects" class="nav-projects">Projects</a></li>
 				<li><a href="index.html#contact" class="nav-contact">Contact</a></li>
 			</ul>
@@ -28,35 +27,88 @@
 	
 	<!--ABOUT-->
 		<div id="about" class="about">
-			<h2>About</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Sit amet risus nullam eget felis eget nunc lobortis mattis. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Amet massa vitae tortor condimentum lacinia. Scelerisque viverra mauris in aliquam. Nisi porta lorem mollis aliquam ut. Quisque id diam vel quam elementum pulvinar etiam non quam. Volutpat blandit aliquam etiam erat velit scelerisque in. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Augue eget arcu dictum varius duis. Amet nisl purus in mollis nunc sed id semper risus. Adipiscing vitae proin sagittis nisl. Eu lobortis elementum nibh tellus molestie. Curabitur gravida arcu ac tortor dignissim convallis aenean. Amet facilisis magna etiam tempor orci eu lobortis.</p>
+			<p>Welcome to my site! My name is Elspeth Curtis, I am based out of Louisville, KY and for the past year have been learning about web development.</p>
+			<p>As an Operations Coordinator, I had the opportunity to help build a Squarespace website. This whet my appetite and led me to Code Louisville at Bellarmine University. Through Code Louisville I was able to dip my feet further into the vast world, completing Front-End Web Development and Full Stack JavaScript.</p> 
+			<p>Feel free to <a href= "index.html#projects" class="nav-projects">check out my work</a>, thus far, and check back to see it grow as I continue on this journey.</p>
+			<p>Also, don't be shy! <a href="index.html#contact" class="nav-contact">Get ahold of me</a> to chat about anything industry related or to just say hi!</p>
 		</div>
 
 	<!--PROJECTS-->
 		<div class="projects">
-			<h2>Projects</h2>
-			<ul>
-				<li>Project 1</li>
-				<li>Project 2</li>
+			<h1>Experience/Projects</h1>
+			
+			<ul class="projList">
+				<li>
+					<h4>Code Louisville Front End Web Development Capstone Project</h4>
+					<img class="project-img" src="img/amateur_chef.PNG"/> <br>
+					<button class="project-1-btn">Details</button>
+						<div class="project-1">
+							<p>Designed and built a responsive front-end website using HTML, CSS, JavaScript</p>
+							<p>Description: My project is the beginning of a website to hold my favorite recipes. I have written recipe categories (breakfast, dinner, dessert, sides and cocktails) in HTML and used JavaScript to store the recipes in each category and display them when a particular category is clicked.</p>
+							<p>Features:
+								<ul class="features">
+									<li>Mobile first responsive CSS styles </li>
+									<li>Wrote all CSS by hand rather than using Bootstrap or equivalent</li>
+									<li>Wrote custom JavaScript functions using Vanilla JavaScript (See github readme for more details)</li>
+									</ul>
+							</p>
+							<p><a href="https://github.com/elspethcurtis/theAmateurChef_recipeSite" target="_blank">See project code.</a></p>
+					</div>
+				</li>
+		<hr>
+				<li>
+					<h4>Code Louisville Full Stack JavaScript Capstone Project</h4>
+					<img class="project-img" src="img/amateur_chef_crud.PNG"/> <br>
+					<button class="project-2-btn">Details</button>
+						<div class="project-2">
+							<p>Designed and built a CRUD application using Express, HeidiSQL, Pug, JavaScript, CSS, MAMP</p>
+							<p>Description: My project adds a backend to my initial recipe site. It adds a database with a CRUD application that allows you to add, see, update and delete recipes. </p>
+							<p>Features:
+								<ul class="features">
+									<li>Used Mamp as local server  </li>
+									<li>Used Express application generator to create skeleton application</li>
+									<li>Used Express to connect to MySQL database
+										<ul>
+											<li>Including a form to submit new recipes containing: error checking of form fields, ability to submit photo to database, ensured titles will always be displayed capitalized</li>
+										</ul>
+									</li>
+									<li>Used Pug as front-end framework to render views</li>
+							</ul></p>
+							<p><a href="https://github.com/elspethcurtis/AmateurChef_withCRUD" target="_blank">See project code.</a> </p>
+						</div>
+		</li>
 			</ul>
 		</div>
 
 	<!--CONTACT-->
 		<div class="contact">
-			<h2>Contact</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Sit amet risus nullam eget felis eget nunc lobortis mattis. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Amet massa vitae tortor condimentum lacinia. Scelerisque viverra mauris in aliquam. Nisi porta lorem mollis aliquam ut. Quisque id diam vel quam elementum pulvinar etiam non quam. Volutpat blandit aliquam etiam erat velit scelerisque in. Eu feugiat pretium nibh ipsum consequat nisl vel pretium. Augue eget arcu dictum varius duis. Amet nisl purus in mollis nunc sed id semper risus. Adipiscing vitae proin sagittis nisl. Eu lobortis elementum nibh tellus molestie. Curabitur gravida arcu ac tortor dignissim convallis aenean. Amet facilisis magna etiam tempor orci eu lobortis.</p>
+			<h1>Contact</h1>
+			<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+			  <fieldset id="fs-frm-inputs">
+				<label for="full-name">Full Name</label>
+				<input type="text" name="name" id="full-name" placeholder="First and Last" required=""> <br>
+				<label for="email-address">Email Address</label>
+				<input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br>
+				<label for="message">Message</label> 
+				<textarea name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+				<input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+			  </fieldset>
+			  <input id="form-btn" type="submit" value="Submit">
+			</form>
 		</div>
     
 	</div>
-		<script
-  			src="https://code.jquery.com/jquery-3.5.1.js"
-  			integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  			crossorigin="anonymous"></script>
-        <script src="main.js"></script>
 	
 <!--FOOTER-->
 	<footer>
 		<p>&copy; Elspeth Curtis 2020</p>
+		<p>Photo by Elspeth Curtis</p>
 	</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+        <script src="main.js"></script>
 </body>
 </html>

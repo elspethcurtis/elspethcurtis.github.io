@@ -34,13 +34,32 @@ header {
 	border: black 3px solid;
 }
 
+.icon {
+	padding-top: 30px;
+	text-decoration: underline;
+	font-size: 2em;
+}
+
+@media(min-width: 712px) {
+	.icon {
+		padding-top: 10px;
+		text-decoration: none;
+	}
+}
+
 footer {
 	border-radius: 8px;
 	border: black 3px solid;
-	text-align: center;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-between;
 }
 
-@media(min-width: 510px) {
+footer p {
+	padding: 10px;
+}
+
+@media(min-width: 712px) {
 	header {
 		justify-content: space-between;
 	}
@@ -59,14 +78,14 @@ footer {
 	border-radius: 8px;
 }
 
-.nav ul li:hover{
+.nav ul li:hover, .project-1-btn:hover, .project-2-btn:hover, #form-btn:hover{
 	background: lightblue;
 	cursor: pointer;
 }
 
 .main-content {
 	flex: 1;
-
+	max-width: 1000px;
 }
 
 h1 {
@@ -81,14 +100,49 @@ header, footer {
 	margin: 30px;
 }
 
+@media(min-width: 800px){
+	.main-content {
+		margin: 30px auto;
+		padding: 0px 30px;
+	}
+}
+
 .about, .projects, .contact {
-	display: none;
 	background: mistyrose;
-	margin: 30px;
+	margin: 30px ;
 	border: black 3px solid;
 	border-radius: 8px;
 	padding: 10px;
 	box-shadow: 8px 5px 11px 1px midnightblue;
+	max-width: 800px;
+}
+
+@media(min-width: 800px) {
+	.about, .projects, .contact {
+		min-width: 650px;
+	}
+	
+	.about{
+		max-width: 800px;
+	}
+}
+
+@media(min-width:1000px) {
+	.about, .projects, .contact {
+		min-width: 800px;
+	}
+}
+
+.projects, .contact {
+	display: none;
+}
+
+.about a, .projects a {
+	background-color:lavender;
+	margin:inherit;
+	padding: inherit;
+	font-size: inherit;
+	text-decoration: underline;
 }
 
 a {
@@ -102,4 +156,60 @@ a {
 	a {
 		font-size: 1.5rem;
 	}
+}
+
+.projList {
+	list-style: none;
+}
+
+.project-img{
+	width: 400px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+
+form input {
+	margin:10px;
+	padding:8px;
+	font-family: 'Nanum Gothic Coding';
+	border: black solid 1px;
+	border-radius: 8px;
+}
+
+textarea {
+	width: 300px;
+	height: 100px;
+	margin: 10px;
+	padding: 8px;
+	border: black solid 1px;
+	border-radius: 8px;
+}
+
+
+fieldset {
+	border: black solid 1px;
+	border-radius: 8px;
+}
+
+#form-btn, .project-1-btn, .project-2-btn {
+	background: lavender;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: inherit;
+    font-family: 'Nanum Gothic Coding';
+}
+
+
+.project-1, .project-2 {
+	display: none;
+}
+
+.features {
+	list-style: circle
+}
+
+hr{
+	border: black solid .5px;
 }
