@@ -2,8 +2,8 @@
 //When nav item is clicked show corresponding div while hiding non-corresponding divs
 
 $(".nav-projects").on("click", function() {
-	$(".about").hide();
 	$(".projects").show("slow");
+	$(".about").hide();
 	$(".contact").hide();
 })
 
