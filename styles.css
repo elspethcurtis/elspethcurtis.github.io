@@ -159,6 +159,8 @@ a {
 
 .projList {
 	list-style: none;
+	padding:0;
+	margin: auto;
 }
 
 .project-img{
