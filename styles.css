@@ -39,9 +39,9 @@ header {
 	font-size: 2em;
 }
 
-@media(min-width: 712px) {
+@media(min-width: 615px) {
 	.icon {
-		padding-top: 10px;
+		padding-top: 0px;
 		text-decoration: none;
 	}
 }
