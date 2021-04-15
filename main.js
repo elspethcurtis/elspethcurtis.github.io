@@ -23,3 +23,19 @@ $('.project-2-btn').click(function () {
 	$(".project-2").toggle("slow");
 })
 
+$('.project-3-btn').click(function () {
+	$(".project-3").toggle("slow");
+})
+
+$('.project-4-btn').click(function () {
+	$(".project-4").toggle("slow");
+})
+$('.project-5-btn').click(function () {
+	$(".project-5").toggle("slow");
+})
+$('.project-6-btn').click(function () {
+	$(".project-6").toggle("slow");
+})
+$('.project-7-btn').click(function () {
+	$(".project-7").toggle("slow");
+})

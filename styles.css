@@ -59,7 +59,8 @@ header {
 	border-radius: 8px;
 }
 
-.nav ul li:hover, .project-1-btn:hover, .project-2-btn:hover, #form-btn:hover{
+.nav ul li:hover, .project-1-btn:hover, .project-2-btn:hover, .project-3-btn:hover,
+.project-4-btn:hover, .project-5-btn:hover, .project-6-btn:hover, .project-7-btn:hover, #form-btn:hover{
 	background: lightblue;
 	cursor: pointer;
 }
@@ -184,7 +185,9 @@ a {
 		border-radius: 8px;
 	}
 
-	.project-1, .project-2 {
+	.project-1, .project-2, .project-3,
+	.project-4, .project-5, .project-6,
+	.project-7 {
 		display: none;
 	}
 
@@ -228,7 +231,8 @@ a {
 		border-radius: 8px;
 	}
 
-	#form-btn, .project-1-btn, .project-2-btn {
+	#form-btn, .project-1-btn, .project-2-btn, .project-3-btn,
+	.project-4-btn, .project-5-btn, .project-6-btn, .project-7-btn {
 		background: lavender;
 		border: none;
 		padding: 8px;
